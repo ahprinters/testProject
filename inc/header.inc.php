@@ -1,3 +1,9 @@
+<?php
+    $heading = "Lead Restaurant";
+
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -11,7 +17,7 @@
 
 <body>
     <header class="header-with-background" style="background-image: url('<?= $headerImage ?? "images/default.jpeg" ?>'); ">
-        <h1>Lead Restaurant</h1>
+        <h1><?=$heading;?></h1>
         <p>Your sanctuary for exceptional flavors</p>
         <nav>
             <?php $pageKey = $pageKey ?? "" ?>
