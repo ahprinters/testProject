@@ -1,7 +1,7 @@
 <?php
 $pageTitle = "Menu";
-$headerImage = "images/2.jpeg";
-$pageKey="menu";
+$headerImage = "/images/2.jpeg";
+$pageKey = "menu";
 include __DIR__ . "/inc/header.inc.php";
 
 
@@ -21,7 +21,9 @@ include __DIR__ . "/inc/header.inc.php";
 </ul>
 
 <figure style="text-align: center;">
-  <img style="max-width: 20rem;" src="images/3.jpeg" alt="Our amazing restaurant" />
+  <img style="max-width: 20rem;" 
+  src="/images/3.jpeg" 
+  alt="Our amazing restaurant" />
   <figcaption>Our amazing restaurant</figcaption>
 </figure>
 
