@@ -23,7 +23,7 @@ $wild = "Wild-Caught Salmon Fillet";
 $wildDes = "Pan-seared salmon served on a bed of quinoa and seasonal greens, drizzled with a lemon-dill sauce.";
 $vegan = "Vegan Harvest Bowl";
 $veganDes = "A hearty bowl filled with quinoa, roasted seasonal vegetables, and a tahini-lemon dressing.";
-$desserts =
+$desserts = "Desserts";
 
 include __DIR__ . "/inc/header.inc.php";
 
