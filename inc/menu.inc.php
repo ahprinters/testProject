@@ -1,6 +1,6 @@
 <?php
     $pageTitle = "Menu";
-    $headerImage = "/images/2.jpeg";
+    $headerImage = "../images/2.jpeg";
     $pageKey = "menu";
     $fCaption = "Our amazing Menu List";
     $heading2 = "Our menu";

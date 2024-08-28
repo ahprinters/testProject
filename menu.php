@@ -1,5 +1,5 @@
 <?php
-
+include __DIR__ ."/inc/menu.inc.php";
 include __DIR__ . "/inc/header.inc.php";
 
 
