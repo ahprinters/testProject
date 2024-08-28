@@ -1,6 +1,6 @@
 <?php
-include __DIR__ ."/inc/menu.inc.php";
-include __DIR__ . "/inc/header.inc.php";
+include __DIR__."/inc/menu.inc.php";
+include __DIR__. "/inc/header.inc.php";
 
 
 ?>
@@ -11,6 +11,12 @@ include __DIR__ . "/inc/header.inc.php";
   <li><strong><?=$mushroom;?></strong> - <?=$mushroomDes;?></li>
   <li><strong><?=$Citrus;?></strong> - <?=$CitrusDes;?> </li>
 </ul>
+<figure style="text-align: center;">
+  <img style="max-width: 20rem;" 
+  src="/images/5.jpeg" 
+  alt="Our amazing restaurant" />
+  <figcaption><?=$fCaption1;?></figcaption>
+</figure>
 
 <h2><?=$Soups;?></h2>
 <ul>
@@ -34,9 +40,17 @@ include __DIR__ . "/inc/header.inc.php";
 </ul>
 
 <h2><?=$desserts;?></h2>
+
 <ul>
   <li><strong><?=$rawBerry;?></strong> - <?=$rawBerryDes;?> </li>
+  
   <li><strong><?=$honey;?></strong> - <?=$honeyDes;?></li>
+  <figure style="text-align: center;">
+  <img style="max-width: 20rem;" 
+  src="/images/7.jpeg" 
+  alt="Our amazing restaurant" />
+  <figcaption><?=$fCaption2;?></figcaption>
+</figure>
 </ul>
 
 <?php include __DIR__ . "/inc/footer.inc.php" ?>
